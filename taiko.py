@@ -57,8 +57,8 @@ def check_connection():
         animated_print(f"Koneksi tetap stabil dengan RPC: {active_rpc_url}", color=Fore.GREEN)
 
 # Ganti dengan private key dan alamat dompet Anda
-private_key = "0xa29488a90"  # Ganti dengan private key
-my_address = Web3.to_checksum_address("0xDd417")  # Alamat dompet Anda
+private_key = "e4546tyytre546w43543456778jtyyu"  # Ganti dengan private key
+my_address = Web3.to_checksum_address("erwewe32ewwre45w4345")  # Alamat dompet Anda
 
 weth_contract_address = Web3.to_checksum_address("0xA51894664A773981C6C112C43ce576f315d5b1B6")
 
@@ -98,8 +98,8 @@ weth_abi = '''
 weth_contract = web3.eth.contract(address=weth_contract_address, abi=weth_abi)
 
 # Tentukan harga gas di awal skrip
-gas_price_wrap_gwei = 0.0123 # Sesuaikan sesuai kebutuhan
-gas_price_unwrap_gwei = 0.0123  # Sesuaikan sesuai kebutuhan
+gas_price_wrap_gwei = 0.009 # Sesuaikan sesuai kebutuhan
+gas_price_unwrap_gwei = 0.009  # Sesuaikan sesuai kebutuhan
 
 # Konversi ke Wei untuk digunakan dalam transaksi
 max_priority_fee_per_gas_wrap = web3.to_wei(gas_price_wrap_gwei, 'gwei')
